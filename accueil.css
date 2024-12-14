@@ -46,10 +46,7 @@ html {
 .menu li:hover {
     background-color: #e15b5b;
 }
-.menu li:focus {
-    background-color: #00ff4a;
-    outline: #1149f3;
-}
+
 .pieddepage{
     background-color: #ff0000;
     color: #ffffff;
