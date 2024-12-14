@@ -1,0 +1,7 @@
+A faire :
+
+- Enlever la ligne en dessous du texte du menu a gauche de l'écran
+- Pied de page a config sur la page formulaire
+- Faire que le menu de gauche change de couleur avec la page courante mise en évidence selon la modalité de notre choix : couleur du texte différente, couleur d’arrière plan différente (comme tu veux)
+- J'ai mis la vidéo de Jamy mais la prof nous demande un logo, au moins une autre image
+- Valider le projet avec W3C pour le HTML et CSS (https://jigsaw.w3.org/css-validator/)
