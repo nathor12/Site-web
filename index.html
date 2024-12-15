@@ -1,23 +1,48 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="utf-8">
-  <title>Conférence Ted Jamy</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="icon" type="image/png" href="Images/logo.png">     <!--  Le logo qui apparait en à côté du titre de la page web -->
+    <meta charset="UTF-8">
+    <title>Accueil</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="icon" href="image/red logo.png" type="image/x-icon">
 </head>
 <body>
-    <h1>Conférence Ted de Jamy : Le passeur de savoir </h1>
+    <div class="col-12 entete">
+        <h1>Accueil</h1>
+    </div>
 
+    <div class="ligne">
+        <!--colonne de menu à gauche, 1/4 de 12 colonnes = 3 colonnes-->
+        <div class="col-3 menu1">
+            <ul>
+                <a href="index.html"><li>Accueil</li></a>
+                <a href="auteur.html"><li>Auteur</li></a>
+                <a href="formulaire.html"><li>Contact</li></a>
+            </ul>
+        </div>
+        <!--colonne de contenu à droite, 3/4 de 12 colonnes = 9 colonnes-->
+        <div class="col-9">
+            <h2>Accueil</h2>
+            <p>La vidéo Ted Talk est présentée par Jamy Gourmaud. Dans sa vidéo il y  développe l'idée du passeur de savoir. Cette citation illustre bien la vidéo :</p>
+            <blockquote>
+                <p>Raconter l'histoire des jardins,
+                    c'est raconter l'histoire des hommes, de leurs déplacements, de leurs conquêtes,
+                    de leur lien avec la nature et l'environnement.
+                </p>
+              </blockquote>
+            <p>Pour faire de l'inclusivité pour les personnes anglaises voici la traduction en anglais :
+                "To tell the story of gardens is to tell the story of men, their movements, their conquests, their link with nature and the environment."
+            </p>
+            <iframe width="800" height="450" src="https://www.youtube.com/embed/G4g9yRDbdq0" title="Le passeur de savoir | Jamy Gourmaud | TEDxUTTroyes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </div>
+    <!--pied de page sur toute la largeur de la page = 12 colonnes-->
 
-    <!--  Le footer est en bas de la page et contient le lien vers la page sur l'auteur et le formulaire de contact -->
-    <footer>
-        <div id="Auteur">
-            <a href="auteur.html" style="color: black"><center>Auteur</center></a>
+    <div class="ligne pieddepage">
+        <div class="col-12">
+            <p>2024 - Production</p>
         </div>
-        <div id="contact">
-            <a href="formulaire.html" style="color: black"><center>Formulaire de contact</center></a>
-        </div>
-    </footer>
+    </div>
+
 </body>
 </html>

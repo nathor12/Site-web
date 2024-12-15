@@ -1,3 +1,15 @@
+/* #Auteur{
+    text-decoration: none;
+    color:white;
+    border: solid 1px #2c3e50;
+    padding:10px 15px;
+    background-color: #95a5a6;
+    text-transform: none;
+}
+footer{
+    text-align: center;
+    position: fixed;
+} */
 #Auteur{
     text-decoration: none;
     color:white;
@@ -9,4 +21,81 @@
 footer{
     text-align: center;
     position: fixed;
+}
+* {
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.ligne:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.entete {
+    background-color: #ff0000;
+    color: #ffffff;
+    padding: 15px;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color : #c12626;
+    color: #ffffff;
+    text-decoration: none;
+}
+.menu li:hover {
+    background-color: #e15b5b;
+}
+
+.menu1 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu1 li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color : rebeccapurple;
+    color: #ffffff;
+    text-decoration: none;
+}
+.menu1 li:hover {
+    background-color: #e15b5b;
+}
+
+.pieddepage{
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: red; 
+        text-align: center; 
+        padding: 10px; 
 }

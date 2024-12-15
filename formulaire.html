@@ -3,39 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <title>Contact</title>
-    <link href="./CSS/formulaire.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link rel="icon" href="image/red logo.png" type="image/x-icon"> <!-- C'est le logo qui apprait dans l'onglet-->
+
 </head>
 <body>
-<div class="col-12 entete">
-    <h1>Pour contacter Jamy</h1>
-</div>
-
-<div class="ligne">
-    <!--colonne de menu à gauche, 1/4 de 12 colonnes = 3 colonnes-->
-    <div class="col-3 menu">
-        <ul>
-            <a href="accueil.html"><li>Accueil</li></a>
-            <a href="auteur.html"><li>Auteur</li></a>
-            <a href="formulaire.html"><li>Contact</li></a>
-        </ul>
+    <div class="col-12 entete">
+        <h1>Pour contacter Jamy</h1>
     </div>
-    <!--colonne de contenu à droite, 3/4 de 12 colonnes = 9 colonnes-->
-    <form>
-        <label for="nom" > Votre Nom + Prénom</label>
-        <input type="text" id="nom" name="nom" >
-        <br>
-        <label for="Mail" > Votre adresse mail:</label>
-        <input type="text" id="mail" name="mail" >
-        <br>
-        <label for="genre" > Votre genre :</label>
-        <select>
-            <option value ="renault">Homme</option>
-            <option value ="peugeot">Femme</option>
-            <option value ="opel">Autre</option>
-        </select>
-        <br>
-        <input type="submit" value="Envoyer" id="envoyer">
-    </form>
-
+    <div class="ligne">
+    <!--colonne de menu à gauche, 1/4 de 12 colonnes = 3 colonnes-->
+        <div class="col-3 menu">
+            <ul>
+                <a href="index.html"><li>Accueil</li></a>
+                <a href="auteur.html"><li>Auteur</li></a>
+                <a href="formulaire.html"><li>Contact</li></a>
+            </ul>
+        </div>
+        <!--colonne de contenu à droite, 3/4 de 12 colonnes = 9 colonnes-->
+        <form>
+            <label for="nom" > Votre Nom + Prénom</label>
+            <input type="text" id="nom" name="nom" >
+            <br>
+            <label for="Mail" > Votre adresse mail:</label>
+            <input type="text" id="mail" name="mail" >
+            <br>
+            <label for="genre" > Votre genre :</label>
+            <select>
+                <option value ="renault">Homme</option>
+                <option value ="peugeot">Femme</option>
+                <option value ="opel">Autre</option>
+            </select>
+            <br>
+            <input type="submit" value="Envoyer" id="envoyer">
+        </form>
+        
+        <!--pied de page sur toute la largeur de la page = 12 colonnes-->
+        <div class="ligne pieddepage">
+            <div class="col-12">
+                <p>2024 - Production</p>
+            </div>
+    </div>
+    
 </body>
 </html>
